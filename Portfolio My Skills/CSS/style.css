@@ -1,0 +1,119 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.mainNav{
+    padding-top: 10px;
+    margin: 0px;
+    display: flex;
+}
+nav{
+    background-color: white;
+    margin: 0px;
+    padding: 12px;
+}
+
+
+.mainNav li{
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Sinhala MN';
+    min-width: 50px;
+    margin-right: 10px;
+}
+
+.logo li{
+    text-align: center;
+    padding: 0px !important;
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h1{
+    font-family: 'Sinhala MN';
+    color:white;
+    background-color:rgb(0, 0, 0);
+    font-size: 64px;
+    vertical-align: top;
+}
+
+h2{
+    font-family: 'Sinhala MN';
+    font-size: 36px;
+    color:white;  
+    vertical-align: top;
+    text-align: center;
+    margin: 36px;
+    padding: 20px;
+}
+
+p{ 
+    font-family: 'Sinhala MN';
+    font-size: 18px;
+    color:white;
+    text-align: center;
+    width: 400px;
+    margin: 16px;
+    padding: 16px;
+}
+
+
+.container{
+    background-color: black;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+}
+
+/*FLEX CONTAINER CSS CODE*/
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    padding: 0px;
+    justify-content: center !important;
+    vertical-align: top;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.uxskills{
+    flex: 1;
+    justify-content: center !important;
+    margin: 20px;
+    padding: 20px;
+}
+
+.wireframing{
+    flex: 1;
+    justify-content: center !important;
+    margin: 20px;
+    padding: 20px;
+}
+
+.highfidelityPrototype {
+    flex: 1;
+    justify-content: center !important;
+    margin: 20px;
+    padding: 20px;
+}
+
+/*FOOTER CODING*/
+
+.footerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center !important;
+    background-color: white;
+}
+.footerNav li{
+    font-family: 'Sinhala MN';
+    font-size: 18px;
+    vertical-align: top;
+    padding: 20px;
+
+}
